@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+body{
+    background-color:#f1e6f8;
+}
+header{
+    padding: 0px 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.head-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 0px;
+    width: 1300px;
+}
+.logo{
+    margin-right: 16rem;
+}
+.mail-location{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+}
+.line1{
+    font-size: 16px;
+    color: #14132B;
+}
+.line2{
+    font-size: 16px;
+    font-weight: 600;
+    color: #14132B;
+}
+/*.nav-bar{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    height: 104px;
+    width: 1300px;
+}*/
+.nav-bar {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 104px;
+    width: 1300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: shadow for better separation */
+}
+
+
+.nav-list ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+    margin-left: 30px;
+    border-radius: 2px;
+}
+.nav-list ul a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.icon-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+.icon-button i{
+    color: black;
+    font-weight: 2000;
+}
+.apply-button{
+    width: 250px;
+    height: 58px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #4c40f7;
+    margin-right: 30px;
+}
+.apply-button a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.main-heading{
+    width: 1204px;
+    height: 62px;
+    display: flex;
+    align-items: center;
+   
+    font-size: 40px;
+    font-weight: 600;
+    padding: 2rem 150px 100px 150px ;
+}
+.internship-info{
+    padding: 0 150px 0 150px;
+}
+.internship-info p{
+    font-size: 22px;
+    
+}
+.internship-info hr{
+    color: #4c40f7;
+}
+.about{
+
+    padding: 130px  100px ;
+    width: 1028px;
+}
+.about-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin-left: 20rem;
+}
+.about-text p{
+    width: 490px;
+    height: 312px;
+}
+.about-text h3{
+    margin-bottom: 4rem;
+    color: #4c40f7;
+    font-size: 20px;
+}
+.about-text h2{
+    /*margin-bottom: 2rem;*/
+    padding: 20px 0 24px;
+    color: #14132b;
+    font-size: 40px;
+}
+.about-text p{
+    font-size: 16px;
+    color: #666666;
+}
+.footer{
+    background-image: url('footer-background-01-noise-1024x267.png');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+    
+}
+.content1 p{
+    width:274px ;
+    height: 144px;
+    color: #ffffff;
+}
+.content2 ul{
+    list-style: none;
+    margin: 2rem;
+}
+.content2 ul a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.content2 ul li{
+    margin: 2rem;
+}
+.content3 .f-mail {
+   margin-bottom: 2rem;
+}
+.f-line1{
+    font-size: 16px;
+    color :#ffffff;
+}
+.f-line2{
+    font-size: 16px;
+    font-weight: 600;
+    color:#ffffff;
+}
